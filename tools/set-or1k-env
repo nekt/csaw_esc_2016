@@ -1,0 +1,34 @@
+#!/bin/bash
+
+if [ -d quartus ]; then
+	export PATH=$PATH:$HOME/altera_lite/16.0/quartus/bin
+fi
+
+if [ -d linux ]; then
+	export ARCH=openrisc
+	export CROSS_COMPILE=or1k-linux-musl-
+fi
+
+if [ -d fusesoc ]; then
+	export PATH=$PWD/fusesoc/bin:$PATH
+	export PYTHONPATH=$PWD/fusesoc/lib/python2.7/site-packages/
+fi
+
+if [ -d linux-compiler/or1k-linux-musl ]; then
+	export PATH=$PWD/linux-compiler/or1k-linux-musl/bin:$PATH
+fi
+
+if [ -d baremetal-compiler/or1k-elf ]; then
+	export PATH=$PWD/baremetal-compiler/or1k-elf/bin:$PATH
+fi
+
+if [ -d or1ksim ]; then
+	export PATH=$PWD/or1ksim/bin:$PATH
+fi
+
+if [ -d openocd ]; then
+	export OPENOCD=$PWD/openocd
+	export PATH=$PWD/openocd/bin:$PATH
+fi
+
+
