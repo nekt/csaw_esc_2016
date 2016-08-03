@@ -1,6 +1,8 @@
 OpenRISC Quickstart Guide (ESC 2016)
 ====================================
 
+**[Click here](https://github.com/nekt/csaw_esc_2016/releases/latest) for the latest release and a copy of ESC 2016 Virtual Machine.**
+
 To setup a working OpenRISC environment, several components and programs are necessary:
 -   A Linux OS, with root/sudo privileges, for hosting the OpenRISC environment;
 -   The `fusesoc` package manager, to easily retrieve the OpenRISC system on chip HDL source code;
