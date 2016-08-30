@@ -22,11 +22,12 @@ Students of all university levels are invited to compete. Each team is eligible 
 
 For ESC 2016, each region has different team sponsorship and prize policies, and the assignment of each team to the corresponding region depends on the *country of the university affiliations of its members*. Specifically, all members of the same team should be enrolled in universities **within the same country** for the duration of the competition, and these affiliations cannot be modified after the submission deadline. At the finals, each region will announce separate winners for the first, second and third place, while the region assignment is as follows:
 -   **United States**: includes universities in the US. Visit https://csaw.engineering.nyu.edu/esc for information about the prizes and travel sponsorship within the US region. This year, **two (2)** students from each team qualified to the finals will receive a travel sponsorship to attend the finals in NY during CSAW. 
--   **MENA**: includes universities from *Algeria*, *Bahrain*, *Egypt*, *Jordan*, *Lebanon*, *Libya*, *Morocco*, *Oman*, *Palestine*, *Qatar*, *Saudi Arabia*, *Sudan*, *Syria*, *Tunisia*, *Turkey*, *United Arab Emirates* and *Yemen*. Visit http://sites.nyuad.nyu.edu/ccs-ad/portfolio/csaw/ for more information about the prizes and travel sponsorship within the MENA region.
+-   **MENA**\*: includes universities from *Algeria*, *Armenia*, *Azerbaijan*, *Bahrain*, *Chad*, *Cyprus*, *Djibouti*, *Egypt*, *Eritrea*, *Georgia*, *Iran*, *Iraq*, *Jordan*, *Kuwait*, *Lebanon*, *Libya*, *Mauritania*, *Morocco*, *Oman*, *Pakistan*, *Palestine*, *Qatar*, *Saudi Arabia*, *South Sudan*, *Sudan*, *Syria*, *Tunisia*, *Turkey*, *United Arab Emirates* and *Yemen*. Visit http://sites.nyuad.nyu.edu/ccs-ad/portfolio/csaw/ for more information about the prizes and travel sponsorship within the MENA region.
 -   **India**: includes universities from India. Visit https://csaw.iitk.ac.in/esc.html for information about the prizes in the India region.
 
 To be able to qualify to the final round, each team should register for the correct region, corresponding to the country of the universities of its members. *Teams with cross-country, cross-region or out-of-region registrations are not eligible for qualification to the final round*. 
 
+\**Travel to NYU Abu Dhabi for CSAW Finals is contingent on visa approval.*
 
 Competition Deadlines
 ---------------------
@@ -37,6 +38,10 @@ Deliverables
 ------------
 For the qualification phase, each participating team should upload to HotCRP **a written report** in PDF format, as well as a TAR.GZ archive with all developed **computer files and instructions**. For the final phase, each qualified team should upload a final version of their PDF report to HotCRP along with a TAR.GZ with all associated computer files and instructions for the preliminary and final phase. The qualifying reports can be up to **4 pages** and the final reports can be up to **8 pages**. In addition, all reports need to follow the *standard IEEE conference format* (10pt font, double column, letter size paper, not compsoc mode); templates are available [here](http://www.ieee.org/conferences_events/conferences/publishing/templates.html). 
 For the day of the live finals at CSAW, each team is asked to prepare a **PowerPoint presentation** and a **poster** of their work.
+
+Code of Conduct
+---------------
+All ESC participants are subject to the NYU Tandon School of Engineering [student code of conduct](http://engineering.nyu.edu/life/student-affairs/code-of-conduct). Any act of academic dishonesty (such as plagiarism, cheating, fabrication, unauthorized collaboration across different teams, work duplication, etc.) *will not be tolerated* and the offenders will be automatically disqualified from the competition.
 
 Equipment Requirements
 ----------------------
