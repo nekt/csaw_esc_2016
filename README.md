@@ -22,12 +22,10 @@ Students of all university levels are invited to compete. Each team is eligible 
 
 For ESC 2016, each region has different team sponsorship and prize policies, and the assignment of each team to the corresponding region depends on the *country of the university affiliations of its members*. Specifically, all members of the same team should be enrolled in universities **within the same country** for the duration of the competition, and these affiliations cannot be modified after the submission deadline. At the finals, each region will announce separate winners for the first, second and third place, while the region assignment is as follows:
 -   **United States**: includes universities in the US. Visit https://csaw.engineering.nyu.edu/esc for information about the prizes and travel sponsorship within the US region. This year, **two (2)** students from each team qualified to the finals will receive a travel sponsorship to attend the finals in NY during CSAW. 
--   **MENA**\*: includes universities from *Algeria*, *Armenia*, *Azerbaijan*, *Bahrain*, *Chad*, *Cyprus*, *Djibouti*, *Egypt*, *Eritrea*, *Georgia*, *Iran*, *Iraq*, *Jordan*, *Kuwait*, *Lebanon*, *Libya*, *Mauritania*, *Morocco*, *Oman*, *Pakistan*, *Palestine*, *Qatar*, *Saudi Arabia*, *South Sudan*, *Sudan*, *Syria*, *Tunisia*, *Turkey*, *United Arab Emirates* and *Yemen*. Visit http://sites.nyuad.nyu.edu/ccs-ad/portfolio/csaw/ for more information about the prizes and travel sponsorship within the MENA region.
+-   **MENA**: visit http://sites.nyuad.nyu.edu/ccs-ad/portfolio/csaw/ for more information about the prizes and travel sponsorship within the MENA region.
 -   **India**: includes universities from India. Visit https://csaw.iitk.ac.in/esc.html for information about the prizes in the India region.
 
-To be able to qualify to the final round, each team should register for the correct region, corresponding to the country of the universities of its members. *Teams with cross-country, cross-region or out-of-region registrations are not eligible for qualification to the final round*. 
-
-\**Travel to NYU Abu Dhabi for CSAW Finals is contingent on visa approval.*
+To be able to qualify to the final round, each team should register for the correct region, corresponding to the country of the universities of its members.  
 
 Competition Deadlines
 ---------------------
