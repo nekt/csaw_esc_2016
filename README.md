@@ -1,3 +1,5 @@
+## HotCRP registration deadline **extended to September 18, 2016**
+
 CSAW 2016 Embedded Security Challenge (ESC)
 ===========================================
 
@@ -29,7 +31,7 @@ To be able to qualify to the final round, each team should register for the corr
 
 Competition Deadlines
 ---------------------
-To participate in the competition, each team needs to register with the HotCRP registration system by **September 9, 2016**. In addition, each team member should also complete the supplementary CSAW questionnaire by this deadline. Registered teams should submit their qualification reports and developed computer files using the HotCRP system by **September 18, 2016**. The teams that qualified to the final phase will be announced on this repository by September 25, 2016. The qualified teams should submit their final reports and associated computer files using the HotCRP system by **November 4, 2016**. 
+To participate in the competition, each team needs to register with the HotCRP registration system by ~~September 9, 2016~~ **(Extended) September 18, 2016**. In addition, each team member should also complete the supplementary CSAW questionnaire by this deadline. Registered teams should submit their qualification reports and developed computer files using the HotCRP system by **September 18, 2016**. The teams that qualified to the final phase will be announced on this repository by September 25, 2016. The qualified teams should submit their final reports and associated computer files using the HotCRP system by **November 4, 2016**. 
 
 
 Deliverables
