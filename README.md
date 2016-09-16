@@ -1,4 +1,4 @@
-## HotCRP registration deadline **extended to September 18, 2016**
+## HotCRP submission deadline **extended to September 30, 2016 (11:59:59pm EDT)**
 
 CSAW 2016 Embedded Security Challenge (ESC)
 ===========================================
@@ -16,7 +16,7 @@ This year, ESC will focus on *hardware mitigations for memory corruption and con
 Registration Policies
 ---------------------
 
-Each team must have a **team leader** and up to 3 additional team members (a total of 4 participants per team). The team leader will be responsible for coordinating with other team members and will be the point of contact for the entire team. Each team should also have a university **faculty advisor**. Except for unforeseen and exceptional situations, if a team has qualified for the final round of the competition and withdraws after October 7, 2016, the team members and their faculty advisor cannot qualify for the 2017 competition; the same policy applies to no-shows at the day of the finals.
+Each team must have a **team leader** and up to 3 additional team members (a total of 4 participants per team). The team leader will be responsible for coordinating with other team members and will be the point of contact for the entire team. Each team should also have a university **faculty advisor**. Except for unforeseen and exceptional situations, if a team has qualified for the final round of the competition and withdraws after October 12, 2016, the team members and their faculty advisor cannot qualify for the 2017 competition; the same policy applies to no-shows at the day of the finals.
 
 The team leaders should register their teams and faculty advisor electronically at https://hotcrp.engineering.nyu.edu/, using the team name and affiliation abbreviation as the 'Submission Title'. ESC uses a HotCRP-based registration & submission system, for both the qualification and final rounds, and teams *should register before finalizing their report and file submissions* by the posted deadlines. In addition, CSAW requires all participating individuals (i.e., each team member separately) to complete a **supplementary questionnaire** available at http://goo.gl/forms/wyMJcQyZqmnWhBpJ3. 
 
@@ -31,7 +31,7 @@ To be able to qualify to the final round, each team should register for the corr
 
 Competition Deadlines
 ---------------------
-To participate in the competition, each team needs to register with the HotCRP registration system by ~~September 9, 2016~~ **(Extended) September 18, 2016**. In addition, each team member should also complete the supplementary CSAW questionnaire by this deadline. Registered teams should submit their qualification reports and developed computer files using the HotCRP system by **September 18, 2016**. The teams that qualified to the final phase will be announced on this repository by September 25, 2016. The qualified teams should submit their final reports and associated computer files using the HotCRP system by **November 4, 2016**. 
+To participate in the competition, each team needs to register with the HotCRP registration system by ~~September 9, 2016~~ ~~September 18, 2016~~ **(Extended) September 30, 2016**. In addition, each team member should also complete the supplementary CSAW questionnaire by this deadline. Registered teams should submit their qualification reports and developed computer files using the HotCRP system by ~~September 18, 2016~~ **(Extended) September 30, 2016**. The teams that qualified to the final phase will be announced on this repository by ~~September 25, 2016~~ **October 7, 2016**. The qualified teams should submit their final reports and associated computer files using the HotCRP system by **November 4, 2016**. 
 
 
 Deliverables
@@ -46,7 +46,7 @@ All ESC participants are subject to the NYU Tandon School of Engineering [studen
 Equipment Requirements
 ----------------------
 
-For the live finals of the competition, the teams will be asked to present their solution to the challenge using a low-cost **DE0-nano FPGA** (available [here](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=593)). Communication with a computer also requires a **3.3 Volt** FTDI USB to UART cable (in addition to the JTAG cable provided with the FPGA board itself). Note that using 5V FTDI cables instead of 3.3 Volt ones, will cause *permanent damage* to the pins of the DE0-nano. Additional information about need-based sponsorships for purchasing the required equipment (FPGA board and cable) will be posted after the announcement of the finalists, and the policy will be different for each region.
+For the live finals of the competition, the teams will be asked to present their solution to the challenge using a low-cost **DE0-nano FPGA** (available [here](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=593)). Communication with a computer also requires a **3.3 Volt** FTDI USB to UART cable that is available [here](https://www.sparkfun.com/products/12977) (this is in addition to the JTAG cable provided with the FPGA board itself). Note that the I/O pins of the FTDI cable (*RX-Yellow*, *TX-Orange* and *GND-Black*) operate at 3.3 Volt (i.e., they are compatible with DE0-nano), but the power supply pin of the cable (*VCC-Red*) is at 5.0 Volt. **This means that the VCC pin of the cable is incompatible with the DE0-nano board (even the VCC pin of the board) and must be left unconnected at all times, as it will cause permanent damage to the FPGA**. The required equipment (FPGA board and FTDI cable) will be provided to the finalists of all 3 regions by the organizers.
 
 
 Contact Information
