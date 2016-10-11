@@ -1,6 +1,8 @@
 OpenRISC Quickstart Guide (ESC 2016)
 ====================================
 
+**[Sample exploits](tools/exploits) for OpenRISC Linux are now available.**
+
 **[Click here](https://github.com/nekt/csaw_esc_2016/releases/latest) for the latest release and a copy of ESC 2016 pre-configured Virtual Machine.**
 
 To setup a working OpenRISC environment (instead of using the [pre-configured Virtual Machine](http://tinyurl.com/csaw-esc16-vm)), several components and programs are necessary:

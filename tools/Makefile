@@ -1,6 +1,6 @@
 SHELL:=/bin/bash
 .DEFAULT_GOAL := help
-.PHONY: help
+.PHONY: help exploits
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-22s\033[0m %s\n", $$1, $$2}'
@@ -90,3 +90,8 @@ connect-openocd: ## Connect to the OpenOCD service using telnet
 	@echo 
 	telnet localhost 4444
 
+exploits: ## Compile sample exploitation programs for OpenRISC Linux
+	or1k-linux-musl-gcc -o exploits/stack exploits/stack.c
+	or1k-linux-musl-gcc -o exploits/format exploits/format.c
+	or1k-linux-musl-gcc -o exploits/ptr exploits/ptr.c
+	or1k-linux-musl-gcc -o exploits/priv exploits/priv.c

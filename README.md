@@ -1,4 +1,4 @@
-## HotCRP submission deadline **extended to September 30, 2016 (11:59:59pm EDT)**
+## ESC 2016 finalists are announced [here](esc2016_finalists.md)
 
 CSAW 2016 Embedded Security Challenge (ESC)
 ===========================================
