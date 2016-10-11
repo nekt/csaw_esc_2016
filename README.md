@@ -1,4 +1,5 @@
 ## ESC 2016 finalists are announced [here](esc2016_finalists.md)
+**[Sample exploits](tools/exploits) for OpenRISC Linux are now available.**
 
 CSAW 2016 Embedded Security Challenge (ESC)
 ===========================================

@@ -1,0 +1,17 @@
+Sample Exploits for OpenRISC Linux
+----------------------------------
+1. **stack.c** showcases a program that is vulnerable to a *stack buffer overflow* attack. The code uses a `memcpy` function and writes beyond the bounds of a buffer. As a result, the return address of the function can be overwritten so that control flow is redirected to an arbitrary function instead of the callee. In this sample, we assume that the adversary can identify the memory address of the arbitrary function (e.g., through a memory disclosure vulnerability), so protections like ASLR are not applicable. The goal is to **prevent the program from returning to any piece of code other than the next instruction of the callee**.  
+
+2. **format.c** demonstrates a program that suffers from a *format string* vulnerability. The code calls a `printf` function using a format string that is provided by the users, without sanitizing it. If a malicious format string is provided, it is possible to modify a memory location pointed by an argument on the stack. In this example, the address of a malicious function is already available to the adversary (e.g., through a memory disclosure vulnerability), and this address is relatively small (since it is required to print a message as long as that address). Thus, the adversary is able to modify the return address of the current function, without disturbing any adjacent memory location (e.g., a *canary* value). The goal is to **prevent the program from returning to any piece of code other than the next instruction of the callee**.
+
+3. **ptr.c** is program that is vulnerable to a *function pointer modification* attack. Due to insecure use of a `memcpy` function, it is possible to write beyond the bounds of a buffer, overwriting an adjacent function pointer on the stack. Thus, subsequent use of the function pointer can call an arbitrary function. In this case, we assume that the memory address of a malicious function is available to the adversary (e.g., through a memory disclosure vulnerability), so memory randomization protections are considered ineffective. The goal is to **prevent maliciously modified function pointers from being used for function calls**. 
+
+4. **priv.c** demonstrates an application with an exploitable *data pointer modification* vulnerability. Due to insecure use of a `memcpy` function, a buffer can be overwritten. As a result, adjacent memory locations on the stack can be modified. In case these modified memory locations correspond to data pointers and data variables, and such variables are assigned to the dereference of a pointer (i.e., there is a statement in the form `*ptr=data`), it may be possible to modify any memory location in the scope of the program. In this sample, the adversary has prior knowledge of the address of a memory location controlling a privilege level (e.g., through a memory disclosure vulnerability) and is able to modify the contents of that location, to effectively escalate privileges. The goal is to **prevent the program from using data pointers that have been maliciously modified**.
+
+
+Reading Material
+----------------
+-   J. Pincus, B. Baker. *Beyond Stack Smashing: Recent Advances in Exploiting Buffer Overruns*
+-   S. Alexander. *Defeating Compiler Level Buffer Overflow Protection*
+-   K. Piromsopa, R. J. Enbody. *Survey of Protections from Buffer-Overflow Attacks*
+-   scut/team teso. *Exploiting Format String Vulnerabilities*
