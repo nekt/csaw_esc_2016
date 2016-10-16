@@ -91,7 +91,7 @@ connect-openocd: ## Connect to the OpenOCD service using telnet
 	telnet localhost 4444
 
 exploits: ## Compile sample exploitation programs for OpenRISC Linux
-	or1k-linux-musl-gcc -o exploits/stack exploits/stack.c
-	or1k-linux-musl-gcc -o exploits/format exploits/format.c
-	or1k-linux-musl-gcc -o exploits/ptr exploits/ptr.c
-	or1k-linux-musl-gcc -o exploits/priv exploits/priv.c
+	or1k-linux-musl-gcc -o linux/arch/openrisc/support/initramfs/stack exploits/stack.c
+	or1k-linux-musl-gcc -o linux/arch/openrisc/support/initramfs/format exploits/format.c
+	or1k-linux-musl-gcc -o linux/arch/openrisc/support/initramfs/ptr exploits/ptr.c
+	or1k-linux-musl-gcc -o linux/arch/openrisc/support/initramfs/priv exploits/priv.c

@@ -74,7 +74,7 @@ make simulate-linux
 ```
 As soon as Linux boots, we can type commands such as `ls` and execute our Hello World program typing `./hello.elf` in the new terminal opened by `or1k-sim`.
 
-To build the OpenRISC System on Chip for the DE0-nano, we type `make fpga-bitstream` from within the `csaw_esc_2016/tools` directory. To program the FPGA using Quartus, we type `make program-fpga`. To interface with the FPGA, we need a **3.3Volt** FTDI USB to TTL serial cable connected to the UART [pins of the board](https://sites.google.com/site/fpgaandco/de0-nano-pinout) (default: pins 5 and 6 on port JP3).  
+To build the OpenRISC System on Chip for the DE0-nano, we type `make fpga-bitstream` from within the `csaw_esc_2016/tools` directory. To program the FPGA using Quartus, we type `make program-fpga`. To interface with the FPGA, we need a **3.3Volt** FTDI USB to TTL serial cable connected to the UART [pins of the board](https://sites.google.com/site/fpgaandco/de0-nano-pinout) (default: pins 5 and 6 on port JP3). The **RX** pin of the serial cable needs to be connected to the transmitting pad of the FPGA (i.e., `uart0_stx_pad_o`), while the **TX** pin of the serial cable needs to be connected to the receiving pad of the FPGA (i.e., `uart0_srx_pad_i`). In addition, the **GND** pin of the serial cable needs to be connected to a ground pad of the FPGA.
 
 **Connecting any 5.0Volt signal to the FPGA pins must be avoided at all times, as this will permanently destroy (burn) the pins; there is no over-voltage protection on the DE0-nano board. The FTDI adapter must have 3.3Volt I/O, and only those signals can be connected to the FPGA; never connect a 5.0Volt VCC wire to any FPGA pin.** 
 
@@ -82,11 +82,11 @@ To change the default pin assignment for UART, we need to edit `~/.local/share/o
 
 After programming the bitstream to the FPGA, we can connect to the SoC using three (3) terminal windows, as follows: 
 -   In the first window, we run OpenOCD using `make run-openocd`; 
--   In the second window, we connect through telnet using `make openocd-connect`, 
+-   In the second window, we connect through telnet using `make connect-openocd`, 
 -   In the third terminal window, we run `sudo putty` and connect to `dev/ttyUSB0` using the serial connection type and `115200` speed (baud rate). 
 
 To transfer the `vmlinux_de0` kernel image and boot Linux on the FPGA, we type 
 ```Shell
-halt; init; reset; halt; load_image (_path_to_)/linux/vmlinux_de0; reg r3 0; reg npc 0x100; resume
+halt; init; reset; halt; load_image /home/esc/Desktop/csaw_esc_2016/tools/linux/vmlinux_de0; reg r3 0; reg npc 0x100; resume
 ``` 
-in the second terminal window (i.e., in the `telnet` prompt).
+in the second terminal window (i.e., in the `telnet` prompt). Note: if needed, replace `/home/esc/Desktop/csaw_esc_2016/tools/linux/vmlinux_de0` with the correct full path to `vmlinux_de0`.
