@@ -74,13 +74,11 @@ make simulate-linux
 ```
 As soon as Linux boots, we can type commands such as `ls` and execute our Hello World program typing `./hello.elf` in the new terminal opened by `or1k-sim`.
 
-To build the OpenRISC System on Chip for the DE0-nano, we type `make fpga-bitstream` from within the `csaw_esc_2016/tools` directory. To program the FPGA using Quartus, we type `make program-fpga`. To interface with the FPGA, we need a **3.3Volt** FTDI USB to TTL serial cable connected to the UART [pins of the board](https://sites.google.com/site/fpgaandco/de0-nano-pinout) (default: pins 5 and 6 on port JP3). The **RX** pin of the serial cable needs to be connected to the transmitting pad of the FPGA (i.e., `uart0_stx_pad_o`), while the **TX** pin of the serial cable needs to be connected to the receiving pad of the FPGA (i.e., `uart0_srx_pad_i`). In addition, the **GND** pin of the serial cable needs to be connected to a ground pad of the FPGA.
+To build the OpenRISC System on Chip for the DE0-nano, we type `make fpga-bitstream` from within the `csaw_esc_2016/tools` directory. To program the FPGA using Quartus, we type `make program-fpga`. To interface with the FPGA, we need a **3.3Volt** FTDI USB to TTL serial cable connected to the UART [pins of the board](https://sites.google.com/site/fpgaandco/de0-nano-pinout). The **RX** pin of the serial cable needs to be connected to the transmitting pad of the FPGA (i.e., `uart0_stx_pad_o`), while the **TX** pin of the serial cable needs to be connected to the receiving pad of the FPGA (i.e., `uart0_srx_pad_i`). In addition, the **GND** pin of the serial cable needs to be connected to a ground pad of the FPGA. The default pin assignment for UART communication of ORPSoC on DE0-nano is A14 and B16 (port JP3); however, it is recommended to reassign UART communication to pin P9 for `uart0_srx_pad_i` and pin N11 for `uart_stx_pad_o` on port J2. The default UART pin assignment can be changed by editing `~/.local/share/orpsoc-cores/systems/de0_nano/data/pinmap.tcl` before re-generating the bitstream with `make fpga-bitstream`.
 
 **Connecting any 5.0Volt signal to the FPGA pins must be avoided at all times, as this will permanently destroy (burn) the pins; there is no over-voltage protection on the DE0-nano board. The FTDI adapter must have 3.3Volt I/O, and only those signals can be connected to the FPGA; never connect a 5.0Volt VCC wire to any FPGA pin.** 
 
-To change the default pin assignment for UART, we need to edit `~/.local/share/orpsoc-cores/systems/de0_nano/data/pinmap.tcl` and re-generate the bitstream using `make fpga-bitstream`.
-
-After programming the bitstream to the FPGA, we can connect to the SoC using three (3) terminal windows, as follows: 
+After programming the bitstream to the FPGA with `make program-fpga`, we can connect to the SoC using three (3) terminal windows, as follows: 
 -   In the first window, we run OpenOCD using `make run-openocd`; 
 -   In the second window, we connect through telnet using `make connect-openocd`, 
 -   In the third terminal window, we run `sudo putty` and connect to `dev/ttyUSB0` using the serial connection type and `115200` speed (baud rate). 
