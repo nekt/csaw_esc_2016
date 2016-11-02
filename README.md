@@ -1,5 +1,5 @@
-## ESC 2016 finalists are announced [here](esc2016_finalists.md)
-**[Sample exploits](tools/exploits) for OpenRISC Linux are now available.**
+### HotCRP final report submission deadline **extended to November 7, 2016 5pm EST.**
+**ESC 2016 finalists are announced [here](esc2016_finalists.md). Sample exploits for OpenRISC Linux are available [here](tools/exploits).**
 
 CSAW 2016 Embedded Security Challenge (ESC)
 ===========================================
@@ -32,13 +32,13 @@ To be able to qualify to the final round, each team should register for the corr
 
 Competition Deadlines
 ---------------------
-To participate in the competition, each team needs to register with the HotCRP registration system by ~~September 9, 2016~~ ~~September 18, 2016~~ **(Extended) September 30, 2016**. In addition, each team member should also complete the supplementary CSAW questionnaire by this deadline. Registered teams should submit their qualification reports and developed computer files using the HotCRP system by ~~September 18, 2016~~ **(Extended) September 30, 2016**. The teams that qualified to the final phase will be announced on this repository by ~~September 25, 2016~~ **October 7, 2016**. The qualified teams should submit their final reports and associated computer files using the HotCRP system by **November 4, 2016**. 
+To participate in the competition, each team needs to register with the HotCRP registration system by ~~September 9, 2016~~ ~~September 18, 2016~~ **(Extended) September 30, 2016**. In addition, each team member should also complete the supplementary CSAW questionnaire by this deadline. Registered teams should submit their qualification reports and developed computer files using the HotCRP system by ~~September 18, 2016~~ **(Extended) September 30, 2016**. The teams that qualified to the final phase will be announced on this repository by ~~September 25, 2016~~ **October 7, 2016**. The qualified teams should submit their final reports and associated computer files using the HotCRP system by ~~November 4, 2016~~ **(Extended) November 7, 2016 5pm EST**. 
 
 
 Deliverables
 ------------
 For the qualification phase, each participating team should upload to HotCRP **a written report** in PDF format, as well as a TAR.GZ archive with all developed **computer files and instructions**. For the final phase, each qualified team should upload a final version of their PDF report to HotCRP along with a TAR.GZ with all associated computer files and instructions for the preliminary and final phase. The qualifying reports can be up to **4 pages** and the final reports can be up to **8 pages**. In addition, all reports need to follow the *standard IEEE conference format* (10pt font, double column, letter size paper, not compsoc mode); templates are available [here](http://www.ieee.org/conferences_events/conferences/publishing/templates.html). 
-For the day of the live finals at CSAW, each team is asked to prepare a **PowerPoint presentation** and a **poster** of their work.
+For the day of the live finals at CSAW, each team is asked to prepare a **PowerPoint presentation** (up to 10') and a **poster** (up to 36"x48") of their work.
 
 Code of Conduct
 ---------------
