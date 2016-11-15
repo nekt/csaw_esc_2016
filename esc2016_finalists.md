@@ -1,3 +1,16 @@
+Final Results
+=============
+
+The final results of ESC in **New York** are as follows:
+-	**1st place** (winners) - University of Central Florida: **KnightSec**
+-	**2nd place** (runner-up) - Grenoble INP-Esisar: **Esisar**
+-	**3rd place** - University of New Hampshire: **Wildcats**
+
+In addition, the results of ESC in **India** are:
+-	**1st place** (winners) - Indian Institute of Technology, Madras: **IITMhackers**
+-	**2nd place** (runner-up) - Indian Institute of Technology, Kharagpur: **SEAL**
+
+
 Finalists
 =========
 

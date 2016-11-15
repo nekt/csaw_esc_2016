@@ -1,5 +1,5 @@
-### HotCRP final report submission deadline **extended to November 7, 2016 5pm EST.**
-**ESC 2016 finalists are announced [here](esc2016_finalists.md). Sample exploits for OpenRISC Linux are available [here](tools/exploits).**
+### The final results of ESC 2016 are announced [here](esc2016_finalists.md). 
+**Sample exploits for OpenRISC Linux are available [here](tools/exploits).**
 
 CSAW 2016 Embedded Security Challenge (ESC)
 ===========================================
