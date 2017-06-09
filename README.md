@@ -1,5 +1,7 @@
-### The final results of ESC 2016 are announced [here](esc2016_finalists.md). 
-**Sample exploits for OpenRISC Linux are available [here](tools/exploits).**
+**For the 2017 ESC repository, please visit [this link](https://github.com/momalab/csaw_esc_2017).**
+
+*The final results of ESC 2016 are announced [here](esc2016_finalists.md).* 
+*Sample exploits for OpenRISC Linux are available [here](tools/exploits).*
 
 CSAW 2016 Embedded Security Challenge (ESC)
 ===========================================
